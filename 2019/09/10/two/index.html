@@ -4,8 +4,8 @@
 
 <head><meta name="generator" content="Hexo 3.9.0">
     <meta charset="utf-8">
-    <meta name="keywords" content="软件测试基础知识, WengYao1234">
-    <meta name="description" content="前言以下是我在2019年自学软件测试时候总结的一些看视频笔记，希望对于新接触软件测试的学生和同事有所帮助。同时大家可以在CSDN上关注我的最新动态 https://blog.csdn.net/qq_41612292/article/cate">
+    <meta name="keywords" content="深入学习软件测试, WengYao1234">
+    <meta name="description" content="前言《深入学习软件测试》是我在2019年9月时候总结的一些看视频的笔记，希望对于新接触软件测试的学生和同事有所帮助。同时大家可以在CSDN上关注我的最新动态 https://blog.csdn.net/qq_41612292/article">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -13,7 +13,7 @@
     <meta name="format-detection" content="telephone=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <title>软件测试基础知识 | WengYao1234</title>
+    <title>深入学习软件测试 | WengYao1234</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/font-awesome.min.css">
@@ -161,13 +161,13 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/8.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/17.jpg')">
     <div class="container">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
                     <div class="description center-align post-title">
-                        软件测试基础知识
+                        深入学习软件测试
                     </div>
                 </div>
             </div>
@@ -289,7 +289,7 @@
             <div class="post-info">
                 <div class="post-date info-break-policy">
                     <i class="fa fa-calendar-minus-o fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2019-09-06
+                    2019-09-10
                 </div>
 
                 
@@ -300,52 +300,55 @@
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>以下是我在2019年自学软件测试时候总结的一些看视频笔记，希望对于新接触软件测试的学生和同事有所帮助。<br>同时大家可以在CSDN上关注我的最新动态 <a href="https://blog.csdn.net/qq_41612292/article/category/9155027" target="_blank" rel="noopener">https://blog.csdn.net/qq_41612292/article/category/9155027</a></p>
-<h2 id="1-1软件测试介绍"><a href="#1-1软件测试介绍" class="headerlink" title="1.1软件测试介绍"></a>1.1软件测试介绍</h2><h3 id="一、为什么需要软件测试"><a href="#一、为什么需要软件测试" class="headerlink" title="一、为什么需要软件测试"></a>一、为什么需要软件测试</h3><p>1.一款软件从无到有会经历很多的开发阶段由不同人来参与开发，所以最终产出的软件功能可能会存在问题。因此为了保证软件功能是可用的，我们必须要进行测试。</p>
-<p>2.当前的软件行业已经不是功能为王，用户不仅仅只盯着软件的功能是否满足需求，还会对软件是否容易上手，执行效率是否OK。。。。等一系列其他体验都有更高的要求，所以着也需要我们对软件进行大量的测试。</p>
-<h3 id="二、为什么选择软件测试"><a href="#二、为什么选择软件测试" class="headerlink" title="二、为什么选择软件测试"></a>二、为什么选择软件测试</h3><p>1.国内的软件行业对专业的软件测试人员需求是慢慢变大。</p>
-<p>2.有些人喜欢创造世界所有他们做了开发，而我们就是希望这个世界变得更加美好所以做了测试。</p>
-<h3 id="三、为什么不让开发自己做测试"><a href="#三、为什么不让开发自己做测试" class="headerlink" title="三、为什么不让开发自己做测试"></a>三、为什么不让开发自己做测试</h3><p>1.当前行业许多测试从业人员本身之前都是开发岗</p>
-<p>2.专业度：软件测试和软件开发分别属于软件行业当中两个不同技术方向。所以让专人做专事对质量更加有保证。</p>
-<p>3.思维定式：在软件的开发周期中对于程序员来说他们大多数的时间都是思考如何实现具体的软件啊功能。而不会去从用户的角度考虑如何去“奇葩”的使用这些功能。</p>
-<p>4.测试力度：相对于开发来说，产品就是相当于他们的孩子，所以下手就不会那么狠。</p>
-<h2 id="1-2软件测试基本介绍"><a href="#1-2软件测试基本介绍" class="headerlink" title="1.2软件测试基本介绍"></a>1.2软件测试基本介绍</h2><h3 id="一、软件测试定义"><a href="#一、软件测试定义" class="headerlink" title="一、软件测试定义"></a>一、软件测试定义</h3><p>通过手工或者工具对“被测对象”进行测试操作，从而验证实际结合与预期结果之间是否存在差异。</p>
-<h3 id="二、软件测试的作用"><a href="#二、软件测试的作用" class="headerlink" title="二、软件测试的作用"></a>二、软件测试的作用</h3><p>1.通过测试工作可以发现并修复软件当中存在的缺陷，从而提高用户对产品的使用信心。</p>
-<p>2.测试可以记录软件运行过程中产生的一些数据，从而决策提供数据支持</p>
-<p>3.测试可以降低同类型产品开发遇到问题的风险。</p>
-<h3 id="三、测试原则：（背）"><a href="#三、测试原则：（背）" class="headerlink" title="三、测试原则：（背）"></a>三、测试原则：（背）</h3><p>所谓的测试原则指的就是我们执行测试工作时必须遵循的一些规则。</p>
-<p>1.测试证明软件存在缺陷：无论执行什么样的测试操作都保证当前软件有缺陷。</p>
-<p>2.不能执行穷尽测试：有些功能是没有办法将所有测试情况罗列出来，所有测试都有结束时间。</p>
-<p>3.缺陷存在群集现象：对于软件功能来说，核心为20，非核心80%。在实际工作中我们会集中测试20%的核心功能，所以这个部分发现缺陷的几率就会高于80%。因此我们就会遇到缺陷都集中在20%功能模块的现。</p>
-<p>4.某些测试需要依赖特殊环境。</p>
-<p>5.测试应尽早介入 ：为了更好的发现和更好的解决软件中的缺陷，我们追求测试工作尽早的开展。</p>
-<p>6.杀虫剂现象：同样的一个测试用例不能重复的执行多次，因为软件会对它产生免疫。</p>
-<p>7.不能存在缺陷谬论：任何软件不可能是完美的。</p>
-<h2 id="1-3测试对象介绍"><a href="#1-3测试对象介绍" class="headerlink" title="1.3测试对象介绍"></a>1.3测试对象介绍</h2><p>对于当前的测试行业来说我么最经常测试的主体就是软件（主体功能），但是需要我们明白的是一个软件也不仅仅只有功能需要测试。我们可以将软件分为三个部分组成：功能集合+使用说明书+配置数据。</p>
-<p>对于一款软件来说从无到有需要不同的过程，我们可以将这个过程分为不同阶段，然后每个阶段都会相应有测试对象</p>
-<p>1.需求分析阶段：各种需求规格说明书。</p>
-<p>2.软件架构设计：API接口文档（接口测试）</p>
-<p>3.编码实现阶段：源代码（白盒测试、单元测试）</p>
-<p>4.系统功能使用：软件功能主题（当前行业做的最多的一种测试）</p>
-<h2 id="1-4测试级别"><a href="#1-4测试级别" class="headerlink" title="1.4测试级别"></a>1.4测试级别</h2><p>软件开发都会依据相应的开发模型，则测试级别指的就在这个模型当中我们人为定义的开发步骤。其中对于测试来说我们最常见的一种级别分类如下：</p>
-<h3 id="1-单元测试"><a href="#1-单元测试" class="headerlink" title="1.单元测试"></a>1.单元测试</h3><p>【UT测试 unit test】：<br>在软件测试中单元之的就是组成软件最小的底层代码结构。一般是类、函数、组件（当下的软件测试行业，不会刻意要求测试人员对源代码进行测试）</p>
-<h3 id="2-集成测试"><a href="#2-集成测试" class="headerlink" title="2.集成测试"></a>2.集成测试</h3><p>【IT system ingertaion test】：<br>将对个单元模块组合在一起，然后验证它们之间沟通的”桥梁“是否能正常工作（接口测试）</p>
-<h3 id="3-系统测试："><a href="#3-系统测试：" class="headerlink" title="3.系统测试："></a>3.系统测试：</h3><p>这当前行业做得最多的一种测试。由测试人员充当用户然后对软件的功能主体进行测试</p>
-<h3 id="4-验证测试："><a href="#4-验证测试：" class="headerlink" title="4.验证测试："></a>4.验证测试：</h3><p>验收测试的核心就是让用户买单</p>
-<p>(1)α测试—内测</p>
-<p>(2)β测试—公测</p>
-<p>(3)UAT 【user acceptance test】测试—由客户派出对业务非常精通的人员来使用该软件，从而对功能进行测试。</p>
-<h2 id="1-5系统测试分类"><a href="#1-5系统测试分类" class="headerlink" title="1.5系统测试分类"></a>1.5系统测试分类</h2><h3 id="1-功能测试："><a href="#1-功能测试：" class="headerlink" title="1.功能测试："></a>1.功能测试：</h3><p>验证当前软件功能是否可用</p>
-<h3 id="2-兼容性测试："><a href="#2-兼容性测试：" class="headerlink" title="2.兼容性测试："></a>2.兼容性测试：</h3><p>验证当前软件在不同的环境下是否运行正常</p>
-<h3 id="3-安全测试："><a href="#3-安全测试：" class="headerlink" title="3.安全测试："></a>3.安全测试：</h3><p>验证软件是否能授权用户提供功能使用。</p>
-<h3 id="4-性能测试："><a href="#4-性能测试：" class="headerlink" title="4.性能测试："></a>4.性能测试：</h3><p>相对于当前软件消耗的资源 它的产出能力。</p>
-<h2 id="1-6常见的系统测试方法"><a href="#1-6常见的系统测试方法" class="headerlink" title="1.6常见的系统测试方法"></a>1.6常见的系统测试方法</h2><h3 id="一、按测试对象进行分类"><a href="#一、按测试对象进行分类" class="headerlink" title="一、按测试对象进行分类"></a>一、按测试对象进行分类</h3><h4 id="1-白盒测试："><a href="#1-白盒测试：" class="headerlink" title="1.白盒测试："></a>1.白盒测试：</h4><p>这种测试的主体就是软件的底层代码，不会在意界面是否OK，只要求底层功能实现，同时逻辑正确。</p>
-<h4 id="2-黑盒测试"><a href="#2-黑盒测试" class="headerlink" title="2.黑盒测试"></a>2.黑盒测试</h4><p>这种测试就是指测试软件外在主体功能是否可用。</p>
-<h4 id="3-灰盒测试"><a href="#3-灰盒测试" class="headerlink" title="3.灰盒测试"></a>3.灰盒测试</h4><p>介于两者之间（接口测试）</p>
-<h3 id="二、按测试对象是否执行分类"><a href="#二、按测试对象是否执行分类" class="headerlink" title="二、按测试对象是否执行分类"></a>二、按测试对象是否执行分类</h3><h4 id="1-静态测试："><a href="#1-静态测试：" class="headerlink" title="1.静态测试："></a>1.静态测试：</h4><p>指的就是测试不执行。</p>
-<h4 id="2-动态测试："><a href="#2-动态测试：" class="headerlink" title="2.动态测试："></a>2.动态测试：</h4><p>将软件运行在真实使用环境中进行测试</p>
-<h3 id="三、按测试手段进行分类"><a href="#三、按测试手段进行分类" class="headerlink" title="三、按测试手段进行分类"></a>三、按测试手段进行分类</h3><h4 id="1-手工测试"><a href="#1-手工测试" class="headerlink" title="1.手工测试"></a>1.手工测试</h4><p>由测试人员手动的对被测对象进行验证，优点就是可以灵活的改变测试操作及环境。</p>
-<h4 id="2-自动化测试"><a href="#2-自动化测试" class="headerlink" title="2.自动化测试"></a>2.自动化测试</h4><p>所谓的自动化主要二种形式</p>
+                <h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>《深入学习软件测试》是我在2019年9月时候总结的一些看视频的笔记，希望对于新接触软件测试的学生和同事有所帮助。<br>同时大家可以在CSDN上关注我的最新动态 <a href="https://blog.csdn.net/qq_41612292/article/category/9155027" target="_blank" rel="noopener">https://blog.csdn.net/qq_41612292/article/category/9155027</a></p>
+<h2 id="测试模型"><a href="#测试模型" class="headerlink" title="测试模型"></a>测试模型</h2><p>随着测试过程的管理和发展，测试人员通过大量的实践，从而总结出了不少测试模型。</p>
+<p>如常见的V模型、W模型、H模型等。这些模型与开发紧密结合，对测试活动进行了抽象，成为了测试过程管理的重要参考依据。</p>
+<h3 id="一、V模型"><a href="#一、V模型" class="headerlink" title="一、V模型"></a>一、V模型</h3><p>其中前4个都是开发，后4个是测试</p>
+<h4 id="1-单元测试"><a href="#1-单元测试" class="headerlink" title="1.单元测试"></a>1.单元测试</h4><p>检测代码的开发是否符合详细设计的要求。</p>
+<h4 id="2-集成测试"><a href="#2-集成测试" class="headerlink" title="2.集成测试"></a>2.集成测试</h4><p>检测此前测试过的各组成部分是否能完好地结合到一起。</p>
+<h4 id="3-系统测试"><a href="#3-系统测试" class="headerlink" title="3.系统测试"></a>3.系统测试</h4><p>检测已集成在一起的产品是否符合系统规格说明书的要求。</p>
+<h4 id="4-验收测试"><a href="#4-验收测试" class="headerlink" title="4.验收测试"></a>4.验收测试</h4><p>检测产品是否符合最终用户的需求。</p>
+<h4 id="优点："><a href="#优点：" class="headerlink" title="优点："></a>优点：</h4><p>1)测试V模型既包含了底层测试又包含了高层测试。(底层测试：检验源代码质量的测试，如：单元测试     高层测试：检验整个系统的需要，如：系统测试)</p>
+<p>2）V模型清楚地标识出了软件开发的阶段。</p>
+<p>3）它采用自顶向下逐步求精的方式把整个开发过程分成不同的阶段，每个阶段的工作都很明确，因此便于控制开发过程。当所有的阶段都完成之后，该软件的开发过程也随之结束。</p>
+<h3 id="二、W模型"><a href="#二、W模型" class="headerlink" title="二、W模型"></a>二、W模型</h3><p>测试伴随着整个软件开发周期，并且测试的对象不仅仅是程序，需求和设计同样要测试。</p>
+<h4 id="优点：-1"><a href="#优点：-1" class="headerlink" title="优点："></a>优点：</h4><p>1）开发强调测试随着软件的开发周期，而且测试的对象不仅仅是程序，需求和概要设计同样要测试。</p>
+<p>2）更早地接入测试，可以发现初期的缺陷，那么可以用更低的成本进行缺陷修复。</p>
+<p>3）同样是分阶段的工作，便于控制项目过程。</p>
+<p>缺点：<br>1）依赖于软件开发和软件测试依然一前一后的线性关系，依然无法支持迭代、自发性和需求等变更调整。</p>
+<p>2）对于当前很多项目根本无产生文档，那么W模型基本无法适用。</p>
+<p>3）使用起来的技术复杂度很高，对于需求和设计的测试要求很高，实践起来困难。</p>
+<h3 id="三、H模型"><a href="#三、H模型" class="headerlink" title="三、H模型"></a>三、H模型</h3><h4 id="测试流程"><a href="#测试流程" class="headerlink" title="测试流程"></a>测试流程</h4><p>测试准备：所有测试执行活动的准备；判断是否到测试就绪点；</p>
+<p>测试就绪点：测试准入准则，即是否可以开始执行测试的条件；</p>
+<p>测试执行：具体的执行测试的程序。</p>
+<h4 id="其他流程"><a href="#其他流程" class="headerlink" title="其他流程"></a>其他流程</h4><p>具体开发中的流程，如：设计流程</p>
+<h4 id="优点"><a href="#优点" class="headerlink" title="优点"></a>优点</h4><p>1）开发H模型揭示了软件测试除测试执行外，还有很多工作</p>
+<p>2）软件测试是完全独立，贯穿整个生命周期且与其他流程并发进行</p>
+<p>3）软件测试活动可以尽早准备、尽早执行，具有很强的灵活性</p>
+<h4 id="缺点"><a href="#缺点" class="headerlink" title="缺点"></a>缺点</h4><p>1）管理型要求高：由于模型很灵活，必须要定义清晰的规则和管理制度，否则测试过程将非常难以管理和控制</p>
+<p>2）技术要求高：H模型要求能够很好的定义每个迭代的规模，不能太大也不能太小</p>
+<p>3）测试就绪点分析困难：测试的很多时候，你并不知道测试准备什么时候的合适的，就绪点在哪里，就绪点的标准是什么，这就对后续的测试执行的启动带来很大的困难</p>
+<p>4）对于整个项目组的人员要求非常高：在很好的规范制度下，大家都能高效的工作，否则容易混乱。</p>
+<h2 id="软件开发过程模型"><a href="#软件开发过程模型" class="headerlink" title="软件开发过程模型"></a>软件开发过程模型</h2><p>在软件开发过程中，人们总结出了很多种开发模型，简述以下三种：<br>瀑布模型、快速原型模型、螺旋模型<br>软件测试与软件的开发模式有着紧密的联系，作为一名测试人员，应该充分理解软件的开发模式，以便找准自己在其中的位置，从而发挥自身的价值。</p>
+<h3 id="一、瀑布模型"><a href="#一、瀑布模型" class="headerlink" title="一、瀑布模型"></a>一、瀑布模型</h3><p>1.、是线性模型的一种，在所有模型中占有重要地位，是所有其他模型的一个基础。</p>
+<p>2、每一个阶段执行一次，按线性顺序进行软件开发。</p>
+<p>注意：测试阶段处于软件实现后，必须在代码完成后留出足够的时间给测试活动，否则将导致测试不充分，很多问题到项目后期才暴露</p>
+<h4 id="优点：-2"><a href="#优点：-2" class="headerlink" title="优点："></a>优点：</h4><p>1）开发的各个阶段比较清晰。</p>
+<p>2）强调早期计划及需求调查。</p>
+<p>3）适合稳定的产品开发。</p>
+<h4 id="缺点："><a href="#缺点：" class="headerlink" title="缺点："></a>缺点：</h4><p>1）依赖早期的需求调查，不适合需求的变化。</p>
+<p>2）单一流程不可逆</p>
+<p>3）风险往往延至后期才显露，失去了及早的纠正机会</p>
+<p>4）前面未发现的错误扩散到后期，可能导致项目的失败</p>
+<h4 id="改良："><a href="#改良：" class="headerlink" title="改良："></a>改良：</h4><p>沿用瀑布模型的线性思想，细化了各个阶段，在某些重要关注的阶段之间掺入迭代的思想。</p>
+<h3 id="二、快速原型模型"><a href="#二、快速原型模型" class="headerlink" title="二、快速原型模型"></a>二、快速原型模型</h3><p>在开发真实系统之前，构造一个原型，在该原型的基础上，逐渐完成整个系统的开发工作。</p>
+<p>第一步是建造一个快速原型，实现用户与系统的交互，用户对原型进行评价，进一步细化待开发软件的需求。通过逐步调整原型使其满足用户的要求，开发人员可以确定用户的真正需求是什么。</p>
+<p>第二步是在第一步的基础上开发出用户满意的软件产品。</p>
+<h4 id="优点：-3"><a href="#优点：-3" class="headerlink" title="优点："></a>优点：</h4><p>克服瀑布模型的缺点，更好地满足用户的需求并减少由于软件需求不明确带来的项目开发风险。适合预先不能确切定义需求的软件系统的开发。</p>
+<h4 id="缺点：-1"><a href="#缺点：-1" class="headerlink" title="缺点："></a>缺点：</h4><p>不适合大型系统的开发（适合开发小型的、灵活性高的系统）。前提要有一个展示性的产品原型，因此在一定程度上可能会限制开发人员的创新。</p>
+<h3 id="三、螺旋模型"><a href="#三、螺旋模型" class="headerlink" title="三、螺旋模型"></a>三、螺旋模型</h3><p>螺旋模型将开发过程分为几个螺旋周期，每个螺旋周期大致和瀑布模型相符合，螺旋模型沿着螺旋线旋转，即在坐标的4个象限上分别表示了4个方面的活动，如图所示：</p>
+<h4 id="优点：-4"><a href="#优点：-4" class="headerlink" title="优点："></a>优点：</h4><p>螺旋模型很大程度上是一种风险驱动的方法体系，因为在每个阶段之前及经常发生的循环之前，都必须首先进行风险评估。</p>
+<h4 id="缺点：-2"><a href="#缺点：-2" class="headerlink" title="缺点："></a>缺点：</h4><p>采用螺旋模型需要具有相当丰富的风险评估经验和专门知识，在风险较大的项目开发中,  如果未能够及时标识风险，势必造成重大损失。过多的迭代次数会增加开发成本，延迟提交时间。</p>
 
             </div>
             <hr/>
@@ -383,9 +386,10 @@
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fa fa-chevron-left"></i>&nbsp;上一篇</div>
+                <i class="fa fa-dot-circle-o"></i>&nbsp;本篇
+            </div>
             <div class="card">
                 <a href="/2019/09/10/two/">
                     <div class="card-image">
@@ -403,9 +407,9 @@
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="fa fa-clock-o fa-fw icon-date"></i>2019-09-10
-                        </span>
+                            <span class="publish-date">
+                                <i class="fa fa-clock-o fa-fw icon-date"></i>2019-09-10
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fa fa-user fa-fw"></i>
@@ -414,6 +418,7 @@
                         </span>
                     </div>
                 </div>
+
                 
             </div>
         </div>
@@ -424,26 +429,24 @@
                 下一篇&nbsp;<i class="fa fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2019/09/05/hello-world/">
+                <a href="/2019/09/06/one/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/14.jpg" class="responsive-img" alt="你好，我的朋友">
+                        <img src="/medias/featureimages/8.jpg" class="responsive-img" alt="软件测试基础知识">
                         
-                        <span class="card-title">你好，我的朋友</span>
+                        <span class="card-title">软件测试基础知识</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            欢迎你来到，我的博客。
-写给自己的话人总是在迷茫众寻找希望，有了希望然后继续迷茫。21岁面临人生的一次选择题，我彷徨不安。我是一个焦虑的人，生活的节奏总是让我十分的焦虑。时刻提醒自己，静下来。
-第一句1.“静下来，没有什么是自己想不到的，做
+                            前言以下是我在2019年自学软件测试时候总结的一些看视频笔记，希望对于新接触软件测试的学生和同事有所帮助。同时大家可以在CSDN上关注我的最新动态 https://blog.csdn.net/qq_41612292/article/cate
                         
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="fa fa-clock-o fa-fw icon-date"></i>2019-09-05
+                                <i class="fa fa-clock-o fa-fw icon-date"></i>2019-09-06
                             </span>
                         <span class="publish-author">
                             
